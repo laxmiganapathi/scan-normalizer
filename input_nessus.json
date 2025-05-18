@@ -1,0 +1,44 @@
+{
+  "vulnerabilities": [
+    {
+      "plugin_id": "19506",
+      "plugin_name": "Nessus Scan Information",
+      "description": "This plugin displays information about the scan settings...",
+      "severity": "0",
+      "host": "192.168.1.100",
+      "port": "0"
+    },
+    {
+      "plugin_id": "26920",
+      "plugin_name": "OpenSSH Server CBC Mode Ciphers Enabled",
+      "description": "The remote SSH server is configured to allow CBC mode...",
+      "severity": "2",
+      "host": "192.168.1.101",
+      "port": "22"
+    },
+    {
+      "plugin_id": "11219",
+      "plugin_name": "Anonymous FTP Login Allowed",
+      "description": "The remote FTP server allows anonymous logins...",
+      "severity": "3",
+      "host": "192.168.1.102",
+      "port": "21"
+    },
+    {
+      "plugin_id": "19507",
+      "plugin_name": "Scan Coverage",
+      "description": "This plugin displays which plugins ran on the host...",
+      "severity": "0",
+      "host": "192.168.1.103",
+      "port": "0"
+    },
+    {
+      "plugin_id": "51192",
+      "plugin_name": "SSL Certificate - Signature Algorithm Weak",
+      "description": "The SSL certificate uses a weak signature algorithm...",
+      "severity": "4",
+      "host": "192.168.1.104",
+      "port": "443"
+    }
+  ]
+}
