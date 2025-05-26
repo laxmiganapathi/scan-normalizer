@@ -1,0 +1,23 @@
+{
+  "report": {
+    "report_name": "Internal Network Scan",
+    "hosts": [
+      {
+        "host-ip": "192.168.1.10",
+        "host-fqdn": "server.local",
+        "report_items": [
+          {
+            "plugin_name": "OpenSSH Detection",
+            "severity": "2",
+            "plugin_output": "OpenSSH 7.2 is installed.",
+            "description": "An outdated version of OpenSSH is being used.",
+            "solution": "Upgrade to OpenSSH 9.0 or later.",
+            "cve": [
+              "CVE-2023-1234"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

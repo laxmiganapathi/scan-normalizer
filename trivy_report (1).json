@@ -1,0 +1,20 @@
+{
+  "Results": [
+    {
+      "Target": "nginx:latest",
+      "Class": "os-pkgs",
+      "Type": "debian",
+      "Vulnerabilities": [
+        {
+          "VulnerabilityID": "CVE-2022-12345",
+          "PkgName": "libssl",
+          "InstalledVersion": "1.1.1k",
+          "FixedVersion": "1.1.1n",
+          "Severity": "HIGH",
+          "Title": "Buffer Overflow in libssl",
+          "Description": "libssl is vulnerable to a buffer overflow condition..."
+        }
+      ]
+    }
+  ]
+}

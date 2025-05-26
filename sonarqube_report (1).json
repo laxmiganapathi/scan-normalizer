@@ -1,0 +1,15 @@
+{
+  "issues": [
+    {
+      "key": "AXs29E2Blaoz3tc5XQfA",
+      "rule": "javascript:S5131",
+      "severity": "CRITICAL",
+      "component": "my-app:src/login.js",
+      "project": "my-app",
+      "message": "Make sure this HTTP request is sent over HTTPS.",
+      "line": 12,
+      "status": "OPEN",
+      "type": "VULNERABILITY"
+    }
+  ]
+}
